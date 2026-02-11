@@ -1,0 +1,22 @@
+# CodeIgniter 4 .gitignore
+
+# Ignore system files
+/system
+
+# Ignore application-specific temporary files
+/application/Cache/
+/application/Logs/
+
+# Ignore environment files
+/.env
+
+# Ignore other temporary files
+/vendor/
+/node_modules/
+/.vscode/
+/.idea/
+.DS_Store
+Thumbs.db
+*.bak
+*~
+*.swp
