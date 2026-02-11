@@ -1,0 +1,1 @@
+{\n  "require": {\n    "codeigniter4/framework": "^4.0",\n    "php": "^7.2 || ^8.0",\n    "vlucas/phpdotenv": "^5.4",\n    "guzzlehttp/guzzle": "^7.0"\n  },\n  "require-dev": {\n    "phpunit/phpunit": "^9.5"\n  },\n  "autoload": {\n    "classmap": [\n      "app/Models",\n      "app/Controllers"\n    ]\n  },\n  "autoload-dev": {\n    "classmap": [\n      "tests/"\n    ]\n  }\n}
